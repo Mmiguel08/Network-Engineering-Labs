@@ -280,7 +280,7 @@ Após aplicar as configurações, você pode validar a conectividade com comando
 show ipv6 route vrf [Nome da vrf]
 show vrf
 show interfaces trunk
-ping ipv6 2001:db8:14::10
+ping [ip do destino] 
 ```
 
 ## Observações
