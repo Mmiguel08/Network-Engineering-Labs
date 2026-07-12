@@ -277,7 +277,7 @@ ip 2001:db8:14::10/64 2001:db8:14::1
 Após aplicar as configurações, você pode validar a conectividade com comandos como:
 
 ```text
-show ipv6 route
+show ipv6 route vrf [Nome da vrf]
 show vrf
 show interfaces trunk
 ping ipv6 2001:db8:14::10
